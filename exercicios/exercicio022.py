@@ -1,0 +1,5 @@
+n = str(input('Nome Completo: ')).strip()
+print('Nome MAIUSCULO: {}'.format(n.upper()))
+print('Nome minúsculo: {}'.format(n.lower()))
+print('Tamanho total: {}'.format(len(n) - n.count(' ')))
+print('Tamanho primeiro nome: {}'.format(len(n.split()[0])))
